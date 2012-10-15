@@ -20,7 +20,7 @@ from social_auth.backends import ConsumerBasedOAuth, OAuthBackend, USERNAME
 
 
 # Twitter configuration
-TWITTER_SERVER = 'api.twitter.com'
+TWITTER_SERVER = 'api.twitter.com/1'
 TWITTER_REQUEST_TOKEN_URL = 'https://%s/oauth/request_token' % TWITTER_SERVER
 TWITTER_ACCESS_TOKEN_URL = 'https://%s/oauth/access_token' % TWITTER_SERVER
 # Note: oauth/authorize forces the user to authorize every time.
